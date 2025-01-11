@@ -8,11 +8,11 @@ const Header = () => {
             <h1 className='font-bold text-[26px]' style={{fontFamily:"Space Grotesk"}}>Legal PDF</h1>
         </div>
         <div className='relative'>
-        <div className='flex gap-[4px] items-center text-[14px] bg-white rounded-[30px] py-[11px] px-[22px]'>
+        <div className='max-w-[213px] flex gap-[4px] items-center text-[14px] bg-white rounded-[30px] py-[11px] px-[22px]'>
             <h1>Ziv Rozen.Adv</h1>
             <img src="./busand.jpg" alt="" width={40} height={40} className='rounded-full'/>
         </div>
-        <div className='flex mt-2 z-50 flex-col justify-center items-center gap-[8px] absolute h-[122px] w-[178px] rounded-[8px] 
+        <div className='flex w-[200px] mt-2 z-50 flex-col justify-center items-center gap-[8px] absolute h-[122px] rounded-[8px] 
         bg-gradient-to-br from-white to-[#F6EFEB] font-light 
         text-[14px]'>
             <p>Order List</p>
