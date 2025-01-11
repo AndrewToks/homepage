@@ -141,7 +141,7 @@ const Hero = () => {
 
           {/* second row/column */}
 
-          <section className='gap-[20px] max-w-[400px] rounded-tr-[25px] ml-auto h-fit p-5 flex flex-col items-center border-b-[2px] bg-gradient-to-br from-white to-[#FFEDE8]'>
+          <section className='gap-[20px] max-w-[400px] rounded-tr-[25px] border-l-[2px] ml-auto h-fit p-5 flex flex-col items-center border-b-[2px] bg-gradient-to-br from-white to-[#FFEDE8]'>
           <h1 className='text-[18px] capitalize mt-5'>Law firm? Register here</h1>
           <small className='capitalize text-[12px] font-light'>We have an awesome solution for you!</small>
           <article className='w-[300px] flex items-center justify-center gap-1 h-[40px] py-3 px-3 bg-[#F2F2F2] rounded-[10px] border-[1px] border-[#8C8C8CCC]'>
