@@ -9,11 +9,11 @@ const Hero = () => {
             <h1>Extract Emails Into A Neat PDF,<span className='text-[#C5764F]'>Ready For Legal Processing.</span></h1>
             <h1>Best For Lawyers !</h1>
         </div>
-        <div className='max-w-[900px] ml-auto mr-auto flex gap-[10px] text-[13px]'
+        <div className='max-w-[900px] ml-auto mr-auto flex gap-[10px] rounded-tl-[25px] border-[1.5px] border-[#E0DAD4] text-[13px]'
          style={{fontFamily:"Space Grotesk"}}>
 
           {/* first row/column */}
-          <section className='max-w-[500px] ml-auto mr-auto gap-[20px] rounded-tl-[25px] flex flex-col p-5 border-[2px] border-[#E0DAD4] bg-gradient-to-br from-white to-[#FFEDE8] font-light '>
+          <section className='gap-[20px] rounded-tl-[25px] flex flex-col p-5 border-[2px] border-[#E0DAD4] bg-gradient-to-br from-white to-[#FFEDE8] font-light '>
           <h1 className='text-[18px]'>Convert Messages To PDF</h1>
           <small className='font-medium'>Choose Your Email Provider</small>
           <article className='text-[13px] flex flex-col gap-2'>
