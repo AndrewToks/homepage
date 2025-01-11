@@ -1,15 +1,18 @@
 import React from 'react'
 import { MdOutlinePhone } from "react-icons/md";
 import { CiLocationOn } from "react-icons/ci";
-import {FaInstagram,FaFacebook,FaTwitter,FaGithub} from "react-icons/fa"
+import {FaTwitter,FaGithub} from "react-icons/fa"
+import { BiLogoFacebookSquare } from "react-icons/bi";
+import { TbBrandInstagramFilled } from "react-icons/tb";
 
 const Footer = () => {
   return (
     <div className='bg-[#F1EEE5] p-5'>
-        <div>
-            <img src="./logo.PNG" alt="" width={40} height={40}/>
+        <div className='flex justify-between gap-3'>
+        <div className='flex flex-col items-start'>
+            <img src="./logo.PNG" alt="" width={60} height={60}/>
             <h1>Legal PDF</h1>
-            <small>Email's Messages into An organised Document</small>
+            <small className='max-w-[300px] text-[18px]'>Email's Messages into An organised Document</small>
         </div>
 
         <div className='flex justify-center gap-5'>
@@ -37,18 +40,20 @@ const Footer = () => {
             <small>Google API Services</small>
         </div>
         </div>
+        </div>
 
         <div className='h-[0.5px] bg-[#B1B1B1] m-3' />
 
-        <div className='capitalize'>
+        <div className='capitalize flex items-center justify-between'>
             <small>Copyright 2020 © LegalPDF All Rights Reserved</small>
-            <div>
-                <FaInstagram />
-                <FaFacebook />
-                <FaTwitter />
-                <FaGithub />
+            <div className='flex items-center gap-3'>
+                <TbBrandInstagramFilled className='bg-[#8C8C8CCC] rounded-full p-2' size={40}/>
+                <BiLogoFacebookSquare className='bg-[#8C8C8CCC] rounded-full p-2' size={40} />
+                <FaTwitter className='bg-[#8C8C8CCC] rounded-full p-2' size={40} />
+                <FaGithub className='bg-[#8C8C8CCC] rounded-full p-2' size={40} />
             </div>
-            <div>
+            <div className='bg-[#8C8C8CCC] w-[92px] h-[40px] p-3 rounded-[5px] flex items-center gap-1'>
+                <img src="./england.PNG" alt="" width={20} height={20}/>
                 <small>English</small>
             </div>
         </div>
