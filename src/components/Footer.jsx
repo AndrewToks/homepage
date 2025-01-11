@@ -11,7 +11,7 @@ const Footer = () => {
         <div className='flex justify-around gap-5'>
         <div className='flex flex-col items-start'>
             <img src="./logo.PNG" alt="" width={60} height={60}/>
-            <h1 className='font-bold text-[]' style={{fontFamily:"Space Grotesk"}}>Legal PDF</h1>
+            <h1 className='font-bold text-[24px]' style={{fontFamily:"Space Grotesk"}}>Legal PDF</h1>
             <small className='max-w-[300px] text-[18px]'>Email's Messages into An organised Document</small>
         </div>
 
@@ -42,7 +42,7 @@ const Footer = () => {
         </div>
         </div>
 
-        <div className='h-[0.5px] bg-[#B1B1B1] m-3' />
+        <div className='w-[900px] ml-auto mr-auto h-[0.5px] bg-[#B1B1B1] m-6' />
 
         <div className='capitalize flex items-center justify-around'>
             <small>Copyright 2020 © LegalPDF All Rights Reserved</small>
