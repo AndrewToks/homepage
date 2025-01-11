@@ -9,7 +9,7 @@ const Hero = () => {
             <h1>Extract Emails Into A Neat PDF,<span className='text-[#C5764F]'>Ready For Legal Processing.</span></h1>
             <h1>Best For Lawyers !</h1>
         </div>
-        <div className='flex gap-[30px] text-[13px]'
+        <div className='flex gap-[10px] text-[13px]'
          style={{fontFamily:"Space Grotesk"}}>
 
           {/* first row/column */}
