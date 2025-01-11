@@ -28,19 +28,19 @@ const Hero = () => {
             <small>Outlook Express Or Hotmail Accounts</small>
             </div>
           </article>
-          <div className='flex flex-col gap-2'>
+          <div className='flex flex-col gap-3'>
           <article className='flex flex-col gap-2'>
             <small className='text-[17px] font-medium'>Login To Your Email</small>
             <input type="text" 
             placeholder='Your Email Address Or Any Google Suite' 
-            className='max-w-[400px] w-full h-[52px]
+            className=' w-full h-[52px]
              outline-none border-[1.5px]
             border-[#E0DAD4] px-3 py-2 rounded-[15px]'/>
           </article>
           <article className='flex flex-col gap-2'>
             <small className='text-[17px]'>Now, Whose Whatsapp Should We Search To Extract?</small>
             <input type="text" placeholder='Enter WhatsApp Number You wish To Extract'
-            className='max-w-[400px] w-full h-[52px] outline-none border-[1.5px] border-[#E0DAD4] px-3 py-2 rounded-[15px]' />
+            className='w-full h-[52px] outline-none border-[1.5px] border-[#E0DAD4] px-3 py-2 rounded-[15px]' />
           </article>
           </div>
           <div className='flex gap-[2px] items-center'>
@@ -53,7 +53,7 @@ const Hero = () => {
           <article>
             <h3 className='text-[15px] mb-3'>With Which Of Your Contacts Would You Like To Extract 
               The Correspondence?</h3>
-              <div className='flex gap-2 w-[490px]'>
+              <div className='flex gap-2 w-full'>
                 <input type="text" placeholder='Contact name'
                 className='w-[235px] h-[52px]
                 outline-none border-[1.5px]
@@ -69,19 +69,19 @@ const Hero = () => {
             <div>
               <div className='flex justify-center items-center gap-5 text-[18px]'>
               <h3>Connect To Whatsapp</h3>
-              <img src="./save.PNG" alt="" width={20} height={20}/>
+              <img src="./save.PNG" alt="" width={25} height={25}/>
               </div>
               <div className='w-[400px] ml-auto mr-auto h-[0.5px] bg-[#B1B1B1] mt-5 mb-3' />
 
               <div />
 
-              <h1 className='capitalize'>
+              <h1 className='capitalize text-[17px]'>
               What About Keywords? Do You want to highlight some?
               </h1>
               <input type="text" 
               placeholder='Keywords To Highlight, Separate By Comma'
-              className='max-w-[400px] w-full mt-2
-                outline-none text-[10px] border-[1.5px]
+              className='w-full mt-2
+                outline-none h-[52px] border-[1.5px]
                border-[#E0DAD4] px-3 py-2 rounded-[15px]' />
             </div>
             <div className='flex flex-col gap-2 mt-3'>
