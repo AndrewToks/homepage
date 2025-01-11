@@ -30,7 +30,7 @@ const Hero = () => {
           </article>
           <div className='flex flex-col gap-2'>
           <article className='flex flex-col gap-2'>
-            <small className='text-[13px]'>Login To Your Email</small>
+            <small className='text-[17px] font-medium'>Login To Your Email</small>
             <input type="text" 
             placeholder='Your Email Address Or Any Google Suite' 
             className='max-w-[400px]
