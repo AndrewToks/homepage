@@ -12,10 +12,10 @@ const Footer = () => {
         <div className='flex flex-col items-start'>
             <img src="./logo.PNG" alt="" width={60} height={60}/>
             <h1 className='font-bold text-[24px]' style={{fontFamily:"Space Grotesk"}}>Legal PDF</h1>
-            <small className='max-w-[300px] text-[18px]'>Email's Messages into An organised Document</small>
+            <small className='w-[300px] text-[16px]'>Email's Messages into An organised Document</small>
         </div>
 
-        <div className='flex justify-center gap-5'>
+        <div className='flex justify-center gap-8'>
         <div className='flex flex-col items-start gap-2'>
             <h1>Contact</h1>
             <small>London Office</small>
@@ -44,7 +44,7 @@ const Footer = () => {
 
         <div className='w-[900px] ml-auto mr-auto h-[0.5px] bg-[#B1B1B1] m-6' />
 
-        <div className='capitalize flex items-center justify-around'>
+        <div className='capitalize flex items-center justify-around mb-3'>
             <small>Copyright 2020 © LegalPDF All Rights Reserved</small>
             <div className='flex items-center gap-3'>
                 <TbBrandInstagramFilled className='bg-[#8C8C8CCC] rounded-full p-2' size={40}/>
