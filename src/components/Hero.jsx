@@ -15,8 +15,8 @@ const Hero = () => {
           {/* first row/column */}
           <section className='gap-[20px] rounded-tl-[25px] flex flex-col p-5 bg-gradient-to-br border-r-[2px] from-white to-[#FFEDE8] font-light '>
           <h1 className='text-[32px] font-normal'>Convert Messages To PDF</h1>
-          <small className='font-medium'>Choose Your Email Provider</small>
-          <article className='text-[13px] flex flex-col gap-2'>
+          <small className='font-medium text-[20px]'>Choose Your Email Provider</small>
+          <article className='text-[16px] flex flex-col gap-2'>
             <div className='flex gap-1 items-center'>
             <input type="radio"/>
             <img src="./mail.PNG" alt="" width={15} height={15} />
