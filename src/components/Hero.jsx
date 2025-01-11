@@ -67,8 +67,10 @@ const Hero = () => {
 
           <article>
             <div>
-              <h3 className='text-center'>Connect To Whatsapp</h3>
-
+              <div className='flex justify-center items-center gap-5 text-[18px]'>
+              <h3>Connect To Whatsapp</h3>
+              <img src="./save.PNG" alt="" width={20} height={20}/>
+              </div>
               <div className='w-[400px] ml-auto mr-auto h-[0.5px] bg-[#B1B1B1] mt-5 mb-3' />
 
               <div />
