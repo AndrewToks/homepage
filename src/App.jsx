@@ -5,7 +5,7 @@ import Footer from './components/Footer'
 
 const App = () => {
   return (
-    <main className='max-w-[1300px] p-5 ml-auto mr-auto'>
+    <main className='max-w-[1200px] p-5 ml-auto mr-auto'>
       <Header />
       <Hero />
       <Footer />

@@ -1,10 +1,11 @@
 import React from 'react'
 import { MdOutlinePhone } from "react-icons/md";
 import { CiLocationOn } from "react-icons/ci";
+import {FaInstagram,FaFacebook,FaTwitter,FaGithub} from "react-icons/fa"
 
 const Footer = () => {
   return (
-    <div className='bg-[#F1EEE5]'>
+    <div className='bg-[#F1EEE5] p-5'>
         <div>
             <img src="./logo.PNG" alt="" width={40} height={40}/>
             <h1>Legal PDF</h1>
@@ -16,15 +17,15 @@ const Footer = () => {
             <h1>Contact</h1>
             <small>London Office</small>
             <div className='flex items-center gap-1'>
-            <MdOutlinePhone />
+            <MdOutlinePhone className='text-[#90900B]'/>
             <small>+44 70837733</small>
             </div>
             <div className='flex items-center gap-1'>
-            <MdOutlinePhone />
+            <MdOutlinePhone className='text-[#90900B]'/>
             <small>+44 70837733</small>
             </div>
             <div className='flex items-center gap-1'>
-                <CiLocationOn />
+                <CiLocationOn className='text-[#90900B]'/>
                 <small>18 Elington Road, E8 3PA</small>
             </div>
         </div>
@@ -35,6 +36,21 @@ const Footer = () => {
             <small>Cookies Policy</small>
             <small>Google API Services</small>
         </div>
+        </div>
+
+        <div className='h-[0.5px] bg-[#B1B1B1] m-3' />
+
+        <div className='capitalize'>
+            <small>Copyright 2020 © LegalPDF All Rights Reserved</small>
+            <div>
+                <FaInstagram />
+                <FaFacebook />
+                <FaTwitter />
+                <FaGithub />
+            </div>
+            <div>
+                <small>English</small>
+            </div>
         </div>
 
     </div>
