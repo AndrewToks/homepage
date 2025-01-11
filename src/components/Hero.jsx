@@ -127,7 +127,7 @@ const Hero = () => {
           </article>
           <article className='flex flex-col gap-3'>
             <h1>And last, what will be the language of the document?</h1>
-            <div className='flex items-center gap-1 border-[1px] h-[40px] px-2 py-3 rounded-[15px]'>
+            <div className='flex items-center gap-2 border-[1px] h-[40px] px-2 py-3 rounded-[15px]'>
               <img src="./england.PNG" alt="" width={20} height={20}/>
               <small>And last, what will be the language of the document?</small>
               </div>
