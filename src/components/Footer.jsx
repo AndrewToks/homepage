@@ -7,11 +7,11 @@ import { TbBrandInstagramFilled } from "react-icons/tb";
 
 const Footer = () => {
   return (
-    <div className='bg-[#F1EEE5] p-5'>
-        <div className='flex justify-between gap-3'>
+    <div className='bg-[#F1EEE5] p-10'>
+        <div className='flex justify-around gap-5'>
         <div className='flex flex-col items-start'>
             <img src="./logo.PNG" alt="" width={60} height={60}/>
-            <h1>Legal PDF</h1>
+            <h1 className='font-bold text-[]' style={{fontFamily:"Space Grotesk"}}>Legal PDF</h1>
             <small className='max-w-[300px] text-[18px]'>Email's Messages into An organised Document</small>
         </div>
 
@@ -44,7 +44,7 @@ const Footer = () => {
 
         <div className='h-[0.5px] bg-[#B1B1B1] m-3' />
 
-        <div className='capitalize flex items-center justify-between'>
+        <div className='capitalize flex items-center justify-around'>
             <small>Copyright 2020 © LegalPDF All Rights Reserved</small>
             <div className='flex items-center gap-3'>
                 <TbBrandInstagramFilled className='bg-[#8C8C8CCC] rounded-full p-2' size={40}/>
