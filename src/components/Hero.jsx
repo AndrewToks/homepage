@@ -9,7 +9,7 @@ const Hero = () => {
             <h1>Extract Emails Into A Neat PDF,<span className='text-[#C5764F]'>Ready For Legal Processing.</span></h1>
             <h1>Best For Lawyers !</h1>
         </div>
-        <div className='max-w-[950px] ml-auto mr-auto flex gap-[10px] rounded-tl-[25px] rounded-tr-[25px] border-[1.5px] border-[#E0DAD4] text-[13px]'
+        <div className='max-w-[1000px] ml-auto mr-auto flex gap-[10px] rounded-tl-[25px] rounded-tr-[25px] border-[1.5px] border-[#E0DAD4] text-[13px]'
          style={{fontFamily:"Space Grotesk"}}>
 
           {/* first row/column */}
@@ -33,34 +33,34 @@ const Hero = () => {
             <small className='text-[17px] font-medium'>Login To Your Email</small>
             <input type="text" 
             placeholder='Your Email Address Or Any Google Suite' 
-            className='max-w-[400px]
-             outline-none text-[10px] border-[1.5px]
+            className='max-w-[400px] w-full h-[52px]
+             outline-none border-[1.5px]
             border-[#E0DAD4] px-3 py-2 rounded-[15px]'/>
           </article>
           <article className='flex flex-col gap-2'>
             <small className='text-[17px]'>Now, Whose Whatsapp Should We Search To Extract?</small>
             <input type="text" placeholder='Enter WhatsApp Number You wish To Extract'
-            className='max-w-[400px] outline-none text-[10px] border-[1.5px] border-[#E0DAD4] px-3 py-2 rounded-[15px]' />
+            className='max-w-[400px] w-full h-[52px] outline-none border-[1.5px] border-[#E0DAD4] px-3 py-2 rounded-[15px]' />
           </article>
           </div>
           <div className='flex gap-[2px] items-center'>
-          <MdRadioButtonChecked className='text-[green]'/>
-          <RiWhatsappFill className='text-[green]'/>
+          <MdRadioButtonChecked className='text-[green]' size={20}/>
+          <RiWhatsappFill className='text-[green]' size={20}/>
             {/* <img src="./icon.PNG" alt="" width={30} height={30}  /> */}
             <small className='text-[17px]'>Would You Like To Extract Whatsapp Messages Instead?</small>
           </div>
 
           <article>
-            <h3 className='text-[12px]'>With Which Of Your Contacts Would You Like To Extract 
+            <h3 className='text-[15px] mb-3'>With Which Of Your Contacts Would You Like To Extract 
               The Correspondence?</h3>
-              <div className='flex gap-2'>
+              <div className='flex gap-2 w-[490px]'>
                 <input type="text" placeholder='Contact name'
-                className='max-w-[400px]
-                outline-none text-[10px] border-[1.5px]
+                className='w-[235px] h-[52px]
+                outline-none border-[1.5px]
                border-[#E0DAD4] px-3 py-2 rounded-[15px]' />
                 <input type="text" placeholder='+444 | Contact Number' 
-                className='max-w-[400px]
-                outline-none text-[10px] border-[1.5px]
+                className='w-[235px] h-[52px]
+                outline-none border-[1.5px]
                border-[#E0DAD4] px-3 py-2 rounded-[15px]' />
               </div>
           </article>
