@@ -13,7 +13,7 @@ const Hero = () => {
          style={{fontFamily:"Space Grotesk"}}>
 
           {/* first row/column */}
-          <section className='gap-[20px] rounded-tl-[25px] flex flex-col p-5 border-[2px] border-[#E0DAD4] bg-gradient-to-br from-white to-[#FFEDE8] font-light '>
+          <section className='gap-[20px] rounded-tl-[25px] flex flex-col p-5 bg-gradient-to-br from-white to-[#FFEDE8] font-light '>
           <h1 className='text-[18px]'>Convert Messages To PDF</h1>
           <small className='font-medium'>Choose Your Email Provider</small>
           <article className='text-[13px] flex flex-col gap-2'>
