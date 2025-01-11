@@ -96,43 +96,43 @@ const Hero = () => {
             </article>
             </div>
 
-            <div className='mt-3'>
-              <h1 className='capitalize'>View other additional information</h1>
-              <small className='capitalize'>Should we list the attachments too?</small>
+            <div className='mt-3 flex flex-col items-start gap-2'>
+              <h1 className='capitalize text-[17px] font-medium'>View other additional information</h1>
+              <small className='capitalize text-[16px] font-medium'>Should we list the attachments too?</small>
               <article className='flex items-center gap-1'>
-                <input type="radio"/>
-                <small className='capitalize'>No, i don't need the attachment list</small>
+                <IoRadioButtonOffSharp size={20}/>
+                <small className='capitalize text-[16px] font-light'>No, i don't need the attachment list</small>
               </article>
               <article className='flex items-center gap-1'>
-                <input type="radio"/>
-                <small className='capitalize'>I want only the list of attachments, not correspondences</small>
+                <IoRadioButtonOffSharp size={20}/>
+                <small className='capitalize text-[16px] font-light'>I want only the list of attachments, not correspondences</small>
               </article>
               <article className='flex items-center gap-1'>
-                <MdRadioButtonChecked  className='text-[green]'/>
-                <small className='capitalize'>I want them both- attachment and correspondences</small>
+                <MdRadioButtonChecked  className='text-[green]' size={20}/>
+                <small className='capitalize text-[16px] font-light'>I want them both- attachment and correspondences</small>
               </article>
             </div>
 
-            <div>
-              <h1 className='capitalize'>What about time frame?</h1>
-              <div className='flex gap-3 items-center'>
-                <input type="text"  className='max-w-[400px]
-             outline-none text-[10px] border-[1.5px]
+            <div className='mt-3 flex flex-col gap-3'>
+              <h1 className='capitalize text-[17px]'>What about time frame?</h1>
+              <div className='flex gap-3 items-center w-full'>
+                <input type="text"  className='w-full h-[52px]
+             outline-none  border-[1.5px]
             border-[#E0DAD4] px-3 py-2 rounded-[15px]'
             placeholder='Dd/Mm/Yyyy'/>
             <h1>To</h1>
-                <input type="text"  className='max-w-[400px]
-             outline-none text-[10px] border-[1.5px]
+                <input type="text"  className='w-full h-[52px]
+             outline-none  border-[1.5px]
             border-[#E0DAD4] px-3 py-2 rounded-[15px]'
             placeholder='Dd/Mm/Yyyy'/>
               </div>
             </div>
           </article>
-          <article className='flex flex-col gap-3'>
-            <h1>And last, what will be the language of the document?</h1>
-            <div className='flex items-center gap-2 border-[1px] h-[40px] px-2 py-3 rounded-[15px]'>
+          <article className='flex flex-col gap-3 capitalize'>
+            <h1 className='text-[17px]'>And last, what will be the language of the document?</h1>
+            <div className='flex items-center gap-2 border-[1px] h-[52px] font-light px-2 py-3 rounded-[15px]'>
               <img src="./england.PNG" alt="" width={20} height={20}/>
-              <small>And last, what will be the language of the document?</small>
+              <small className='text-[16px]'>And last, what will be the language of the document?</small>
               </div>
             <button className='bg-[#C5764F]  w-full h-[40px] text-center rounded-[10px] text-white'>Generate PDF</button>
           </article>
