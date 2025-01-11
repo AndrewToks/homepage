@@ -13,7 +13,7 @@ const Hero = () => {
          style={{fontFamily:"Space Grotesk"}}>
 
           {/* first row/column */}
-          <section className='gap-[20px] rounded-tl-[25px] flex flex-col p-5 bg-gradient-to-br from-white to-[#FFEDE8] font-light '>
+          <section className='gap-[20px] rounded-tl-[25px] flex flex-col p-5 bg-gradient-to-br border-r-[2px] from-white to-[#FFEDE8] font-light '>
           <h1 className='text-[18px]'>Convert Messages To PDF</h1>
           <small className='font-medium'>Choose Your Email Provider</small>
           <article className='text-[13px] flex flex-col gap-2'>
@@ -130,7 +130,7 @@ const Hero = () => {
 
           {/* second row/column */}
 
-          <section className='gap-[20px] flex flex-col items-center'>
+          <section className='gap-[20px] h-fit p-5 flex flex-col items-center border-l-[2px] rounded-tr-[25px] bg-gradient-to-br from-white to-[#FFEDE8]'>
           <h1 className='text-[18px] capitalize mt-5'>Law firm? Register here</h1>
           <small className='capitalize text-[12px] font-light'>We have an awesome solution for you!</small>
           <article className='w-[300px] flex items-center justify-center gap-1 h-[40px] py-3 px-3 bg-[#F2F2F2] rounded-[10px] border-[1px] border-[#8C8C8CCC]'>
@@ -144,7 +144,7 @@ const Hero = () => {
             {/* horizontal Line */}
             <div className='w-[300px] h-[0.5px] bg-[#B1B1B1] mt-5 mb-3' />
 
-            <h2 className='capitalize'>How it works? watch below!</h2>
+            <h2 className='capitalize font-bold mt-3 text-[24px]'>How it works? watch below!</h2>
             <img src="./display.PNG" alt="" width={300}/>
           </section>
         </div>
