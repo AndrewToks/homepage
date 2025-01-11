@@ -12,7 +12,8 @@ const Header = () => {
             <h1>Ziv Rozen.Adv</h1>
             <img src="./busand.jpg" alt="" width={40} height={40} className='rounded-full'/>
         </div>
-        <div className='flex w-[300px] right-3  mt-2 z-50 flex-col justify-center items-center gap-[8px] absolute h-[150px] rounded-[8px] 
+        <div className='flex w-[300px] right-3  mt-2 z-50 
+        flex-col justify-center items-center gap-[20px] absolute h-[150px] rounded-[8px] 
         bg-gradient-to-br from-white to-[#F6EFEB] font-light 
         text-[14px]'>
             <p>Order List</p>
